@@ -2,3 +2,6 @@ a {
   text-decoration: none;
   font-family: "Source Sans Pro", sans-serif;
 }
+.banner {
+  height: 400px;
+}
