@@ -3,5 +3,28 @@ a {
   font-family: "Source Sans Pro", sans-serif;
 }
 .banner {
+  object-fit: cover;
   height: 400px;
+}
+span,
+p,
+h5 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.planta {
+  background: #9bcc50;
+}
+.veneno {
+  background: #b97fc9;
+}
+.fuego {
+  background: #fd7d24;
+}
+.poke:hover {
+  position: relative;
+  top: -4px;
+  right: 4px;
+  filter: grayscale(0%);
+  transition: 700ms;
 }
