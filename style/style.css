@@ -4,7 +4,7 @@ a {
 }
 .banner {
   object-fit: cover;
-  height: 400px;
+  height: 500px;
 }
 span,
 p,
@@ -27,4 +27,7 @@ h5 {
   right: 4px;
   filter: grayscale(0%);
   transition: 700ms;
+}
+.bordes {
+  border-radius: 20px;
 }
