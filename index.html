@@ -23,7 +23,7 @@
     <title>Pokedex</title>
   </head>
   <body>
-    <header>
+    <header class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <div class="container">
           <a class="navbar-brand fs-2" href="/index.html">Pokedex</a>
@@ -68,21 +68,20 @@
                 </ul>
               </li>
             </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar un pokemon"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Search
+              </button>
+            </form>
           </div>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </nav>
-      >
     </header>
     <main>
       <section class="container">
@@ -146,7 +145,8 @@
               <p class="fw-light fs-4 fs-4">N.º 001</p>
               <h5 class="card-title fw-bolder fs-3">Bulbasaur</h5>
               <p class="card-text">
-                <span class="badge planta fs-6">Planta</span> <span class="badge veneno fs-6">Veneno</span>
+                <span class="badge planta fs-6">Planta</span>
+                <span class="badge veneno fs-6">Veneno</span>
               </p>
               <a href="#" class="btn btn-primary">Ver detalle</a>
             </div>
@@ -159,9 +159,10 @@
             />
             <div class="card-body">
               <p class="fw-light fs-4 fs-4">N.º 002</p>
-              <h5 class="card-title fw-bolder fs-3">Ivysaur</h5>
+              <h5 class="card-title fw-bolder fs-3 fw-bolder fs-3">Ivysaur</h5>
               <p class="card-text">
-                <span class="badge planta fs-6">Planta</span> <span class="badge veneno fs-6">Veneno</span>
+                <span class="badge planta fs-6">Planta</span>
+                <span class="badge veneno fs-6">Veneno</span>
               </p>
               <a href="#" class="btn btn-primary">Ver detalle</a>
             </div>
@@ -174,9 +175,10 @@
             />
             <div class="card-body">
               <p class="fw-light fs-4 fs-4">N.º 003</p>
-              <h5 class="card-title fw-bolder fs-3">Venusaur</h5>
+              <h5 class="card-title fw-bolder fs-3 fw-bolder fs-3">Venusaur</h5>
               <p class="card-text">
-                <span class="badge planta fs-6">Planta</span> <span class="badge veneno fs-6">Veneno</span>
+                <span class="badge planta fs-6">Planta</span>
+                <span class="badge veneno fs-6">Veneno</span>
               </p>
               <a href="#" class="btn btn-primary">Ver detalle</a>
             </div>
@@ -189,9 +191,9 @@
             />
             <div class="card-body">
               <p class="fw-light fs-4">N.º 004</p>
-              <h5 class="card-title">Charmander</h5>
+              <h5 class="card-title fw-bolder fs-3">Charmander</h5>
               <p class="card-text">
-                <span class="badge bg-success">Fuego</span>
+                <span class="badge fuego fs-6">Fuego</span>
               </p>
               <a href="#" class="btn btn-primary">Ver detalle</a>
             </div>
@@ -204,9 +206,9 @@
             />
             <div class="card-body">
               <p class="fw-light fs-4">N.º 005</p>
-              <h5 class="card-title">Charmeleon</h5>
+              <h5 class="card-title fw-bolder fs-3">Charmeleon</h5>
               <p class="card-text">
-                <span class="badge bg-success">Fuego</span>
+                <span class="badge fuego fs-6">Fuego</span>
               </p>
               <a href="#" class="btn btn-primary">Ver detalle</a>
             </div>
@@ -219,9 +221,9 @@
             />
             <div class="card-body">
               <p class="fw-light fs-4">N.º 006</p>
-              <h5 class="card-title">Charizard</h5>
+              <h5 class="card-title fw-bolder fs-3">Charizard</h5>
               <p class="card-text">
-                <span class="badge bg-success">Fuego</span>
+                <span class="badge fuego fs-6">Fuego</span>
               </p>
               <a href="#" class="btn btn-primary">Ver detalle</a>
             </div>
@@ -234,9 +236,9 @@
             />
             <div class="card-body">
               <p class="fw-light fs-4">N.º 007</p>
-              <h5 class="card-title">Squirtle</h5>
+              <h5 class="card-title fw-bolder fs-3">Squirtle</h5>
               <p class="card-text">
-                <span class="badge bg-success">Agua</span>
+                <span class="badge bg-info fs-6">Agua</span>
               </p>
               <a href="#" class="btn btn-primary">Ver detalle</a>
             </div>
@@ -249,9 +251,9 @@
             />
             <div class="card-body">
               <p class="fw-light fs-4">N.º 010</p>
-              <h5 class="card-title">Caterpie</h5>
+              <h5 class="card-title fw-bolder fs-3">Caterpie</h5>
               <p class="card-text">
-                <span class="badge bg-success">Bicho</span>
+                <span class="badge planta fs-6">Bicho</span>
               </p>
               <a href="#" class="btn btn-primary">Ver detalle</a>
             </div>
@@ -264,19 +266,19 @@
             />
             <div class="card-body">
               <p class="fw-light fs-4">N.º 012</p>
-              <h5 class="card-title">Butterfree</h5>
+              <h5 class="card-title fw-bolder fs-3">Butterfree</h5>
               <p class="card-text">
-                <span class="badge bg-success">Bicho</span> <span class="badge bg-secondary">Volador</span>
+                <span class="badge planta fs-6">Bicho</span>
+                <span class="badge bg-secondary fs-6">Volador</span>
               </p>
               <a href="#" class="btn btn-primary">Ver detalle</a>
             </div>
           </div>
-          
         </article>
       </section>
     </main>
   </body>
-  <footer class="bg-dark container-fluid py-4 mx-2">
+  <footer class="bg-dark container-fluid py-4">
     <p class="text-light text-center">&copy;Todos los derechos reservados</p>
   </footer>
   <script
